@@ -37,6 +37,7 @@ namespace McShares2022.Controllers
             }
 
             return response;
+            
         }
 
         private string GenerateJSONWebToken(UserModel userInfo)

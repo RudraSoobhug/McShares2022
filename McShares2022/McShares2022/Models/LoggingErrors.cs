@@ -11,6 +11,6 @@ namespace McShares2022.Models
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int errorID { get; set; }
         public DateTime errorTime { get; set; }
-        public string description { get; set; }
+        public string description { get; set; } 
     }
 }

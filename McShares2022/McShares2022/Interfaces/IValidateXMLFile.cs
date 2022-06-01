@@ -8,6 +8,6 @@ namespace McShares2022.Interfaces
 {
     public interface IValidateXMLFile
     {
-        public bool ValidateXmlFile(UploadFile obj);
+        public bool ValidateXmlFile(UploadFile obj); 
     }
 }

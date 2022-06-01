@@ -32,6 +32,6 @@ namespace McShares2022.Models
 
         [ForeignKey("DocumentData")]
         public int request_Document_Id { get; set; }
-        public virtual RequestDocument requestDocument { get; set; }
+        public virtual RequestDocument requestDocument { get; set; } 
     }
 }
