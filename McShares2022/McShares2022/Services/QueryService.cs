@@ -111,6 +111,7 @@ namespace McShares2022.Services
             var result = _context.dataItem_Customer.Where(n =>
                 (n.Contact_Name.ToLower().Contains(p1)) || ((n.Contact_Name.ToLower().Contains(p2))));
             return result;
+            
         }
     }
 }

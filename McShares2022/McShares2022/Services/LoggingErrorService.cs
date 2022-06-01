@@ -25,6 +25,7 @@ namespace McShares2022.Services
                 _context.logErrors.Add(log);
                 _context.SaveChanges();
             }
+            //
             catch (Exception e)
             {
                 Console.WriteLine(e);
